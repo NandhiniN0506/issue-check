@@ -1,6 +1,20 @@
+# Dependencies
 node_modules/
+
+# Environment & secrets (never commit)
 .env
-.DS_Store
+.env.local
+.env.*.local
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build output
 dist/
 build/
+
+# OS & logs
+.DS_Store
 *.log

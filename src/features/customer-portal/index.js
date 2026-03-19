@@ -1,1 +1,2 @@
 // Customer portal
+export default {}
